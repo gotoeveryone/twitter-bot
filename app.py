@@ -38,6 +38,6 @@ def update_status():
     }
 
 
-@app.schedule(Cron(0, 23, '?', '*', '*', '*'))
+@app.schedule(Cron(30, 14, '?', '*', '*', '*'))  # UTC 14:30 -> JST 23:30
 def lambda_handler(event, context={}):
     return update_status()
