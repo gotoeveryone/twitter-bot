@@ -1,0 +1,30 @@
+# General
+.DS_Store
+
+# Editor
+.idea
+.vscode
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+
+# requirements.txt
+requirements.txt
+
+# Lambda config
+event.json
+
+# chalice
+.chalice/config.json
+.chalice/deployed/
+.chalice/deployments/
+.chalice/venv/

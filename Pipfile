@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+
+[packages]
+boto3 = "*"
+requests = "*"
+requests-oauthlib = "*"
+chalice = "*"
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+execute = "python main.py"
+deploy = "bash -c 'pipenv lock -r > requirements.txt && chalice deploy --stage prod'"
