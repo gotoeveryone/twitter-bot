@@ -1,0 +1,22 @@
+name: Twitter Bot build workflow
+
+on: [push]
+
+jobs:
+  code_check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.7'
+
+      - name: Install dependencies
+        run: |
+          pip install pipenv
+          pipenv install -d
+
+      - name: Execute code check
+        run: pipenv run code_check
