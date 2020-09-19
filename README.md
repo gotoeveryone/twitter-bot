@@ -20,6 +20,15 @@ $ cp event.json.example event.json # Please edit the value.
 $ pipenv run execute
 ```
 
+## Code check and format (with pycodestyle and autopep8)
+
+```console
+$ # Code check
+$ pipenv run code_check
+$ # Format
+$ pipenv run code_format
+```
+
 ## Deploy
 
 ```console
