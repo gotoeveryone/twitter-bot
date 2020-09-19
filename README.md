@@ -4,6 +4,7 @@
 
 - Python 3.7
 - pipenv
+- AWS account (use to dynamoDB and Lambda)
 
 ## Setup
 
