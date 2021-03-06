@@ -1,10 +1,13 @@
 # Twitter Bot
 
+![Build Status](https://github.com/gotoeveryone/twitter-bot/workflows/Build/badge.svg)
+
 ## Requirements
 
 - Python 3.7
 - pipenv
 - AWS account (use to dynamoDB and Lambda)
+- Twitter Account
 
 ## Setup
 
