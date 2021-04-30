@@ -27,6 +27,28 @@ jobs:
         if: steps.app_cache.outputs.cache-hit != 'true'
         run: pipenv install -d
 
+      - name: Generate lockfile
+        run: pipenv lock -r > requirements.txt
+
+      # Set up cache for pip
+      - name: Get pip cache dir
+        id: pip_cache_path
+        run: |
+          echo "::set-output name=dir::$(pip cache dir)"
+
+      - name: Cache pip
+        uses: actions/cache@v1
+        id: pip_cache
+        with:
+          path: ${{ steps.pip_cache_path.outputs.dir }}
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install libraries
+        if: steps.pip_cache.outputs.cache-hit != 'true'
+        run: pip install -r requirements.txt
+
       - name: Execute code check
         run: pipenv run code_check
 
