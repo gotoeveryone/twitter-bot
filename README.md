@@ -32,6 +32,14 @@ $ # Format
 $ pipenv run code_format
 ```
 
+## Create infra resources (use [Pulumi](https://www.pulumi.com/))
+
+```console
+$ cd infra
+$ pulumi preview
+$ pulumi up
+```
+
 ## Deploy
 
 ```console
