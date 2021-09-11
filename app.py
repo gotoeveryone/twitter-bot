@@ -5,7 +5,7 @@ import random
 import boto3
 from chalice import Chalice, Cron
 import requests
-from requests_oauthlib import OAuth1Session
+from chalicelib.twitter import TwitterClient
 
 app = Chalice(app_name='twitter-bot')
 app.debug = True if os.getenv('DEBUG', False) else False
@@ -33,18 +33,9 @@ def notify(webhook_url: str, subject: str, message: str):
 
 
 def update_status():
-    url = 'https://api.twitter.com/1.1/statuses/update.json'
-    twitter = OAuth1Session(
-        os.getenv('CONSUMER_KEY'),
-        os.getenv('CONSUMER_SECRET'),
-        os.getenv('ACCESS_TOKEN'),
-        os.getenv('ACCESS_TOKEN_SECRET'),
-    )
+    client = TwitterClient()
     message = get_message()
-
-    res = twitter.post(url, params={
-        'status': message,
-    })
+    res = client.send(message)
 
     webhook_url = os.getenv('SLACK_WEBHOOK_URL')
     if webhook_url:

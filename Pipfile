@@ -8,15 +8,17 @@ autopep8 = "*"
 
 [packages]
 boto3 = "*"
+chalice = "*"
+pulumi = "<4.0.0,>=3.0.0"
+pulumi-aws = "<5.0.0,>=4.0.0"
 requests = "*"
 requests-oauthlib = "*"
-chalice = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8.1"
 
 [scripts]
-execute = "python main.py"
-deploy = "bash -c 'pipenv lock -r > requirements.txt && chalice deploy --stage prod'"
 code_check = "pycodestyle ."
 code_format = "autopep8 --in-place --recursive ."
+deploy = "bash -c 'pipenv lock -r > requirements.txt && chalice deploy --stage prod'"
+execute = "python main.py"

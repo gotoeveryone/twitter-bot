@@ -14,7 +14,6 @@
 ```console
 $ pipenv install # When with dev-package add `-d` option.
 $ cp .env.example .env # Please edit the value.
-$ cp event.json.example event.json # Please edit the value.
 ```
 
 ## Run (Local)

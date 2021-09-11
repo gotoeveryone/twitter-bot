@@ -9,10 +9,6 @@
       "manage_iam_role": false,
       "iam_role_arn": "arn:aws:iam::XXXXXXXX:role/XXX",
       "environment_variables": {
-        "CONSUMER_KEY": "consumer_key",
-        "CONSUMER_SECRET": "consumer_secret",
-        "ACCESS_TOKEN": "access_token",
-        "ACCESS_TOKEN_SECRET": "access_token_secret",
         "SLACK_WEBHOOK_URL": ""
       }
     }
