@@ -4,9 +4,9 @@
 
 ## Requirements
 
-- Python 3.7
+- Python 3.8
 - pipenv
-- AWS account (use to dynamoDB and Lambda)
+- AWS account (use to DynamoDB, Lambda and Secrets Manager)
 - Twitter Account
 
 ## Setup
