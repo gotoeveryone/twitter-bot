@@ -1,5 +1,5 @@
 import json
-from app import lambda_handler
+from app import update_status
 
 dummy_event = {
     'account': 'admin',
@@ -15,4 +15,4 @@ dummy_event = {
 
 # ローカル実行用
 if __name__ == '__main__':
-    print(json.dumps(lambda_handler(dummy_event, context={}), ensure_ascii=False, indent=2))
+    print(json.dumps(update_status(), ensure_ascii=False, indent=2))
