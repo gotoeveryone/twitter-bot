@@ -8,14 +8,14 @@ autopep8 = "*"
 boto3 = "*"
 
 [packages]
-chalice = "*"
+chalice = "~=1.26.3"
 pulumi = "<4.0.0,>=3.0.0"
 pulumi-aws = "<5.0.0,>=4.0.0"
-requests = "*"
-requests-oauthlib = "*"
+requests = "~=2.26.0"
+requests-oauthlib = "~=1.3.0"
 
 [requires]
-python_version = "3.8"
+python_version = "3.9"
 
 [scripts]
 code_check = "pycodestyle ."

@@ -11,7 +11,7 @@ app = Chalice(app_name='twitter-bot')
 app.debug = True if os.getenv('DEBUG', False) else False
 
 
-def get_message():
+def get_message() -> str:
     dynamodb = boto3.resource('dynamodb')
     table = dynamodb.Table('bot_messages')
     result = table.scan()
