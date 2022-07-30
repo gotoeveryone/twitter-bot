@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "6a45e51b7fbeebd8dc7da5f4ae58969a6ac352eeb4646fc5af03ba1f4ada0eec"
+            "sha256": "792fb1bfcf7a9785f3a6af04aa6262c471aeb195f24f5ce64252831352e53ae9"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -221,10 +221,10 @@
         },
         "pulumi-aws": {
             "hashes": [
-                "sha256:0cd807241e574c726bc8355c545ed2f04bf8c84c1f6c4d5f13afd715a599bf8d"
+                "sha256:e82655bd961447167e1bb2839032e93ba73c37cf2f048ed2447de67dc73e9fd5"
             ],
             "index": "pypi",
-            "version": "==4.38.1"
+            "version": "==5.10.0"
         },
         "python-dateutil": {
             "hashes": [
