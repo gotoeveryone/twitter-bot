@@ -216,10 +216,10 @@
         },
         "pulumi-aws": {
             "hashes": [
-                "sha256:fdc8698115ac5a7e7d7c806930d6f5d1e12fecb2216bcb999b9832f18e1be158"
+                "sha256:9bd7b3337ee42afd1f72702556b059700d51d25386923fa80deccc95a4204c7b"
             ],
             "index": "pypi",
-            "version": "==5.16.0"
+            "version": "==5.16.2"
         },
         "python-dateutil": {
             "hashes": [
