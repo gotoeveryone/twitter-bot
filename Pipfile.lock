@@ -41,11 +41,11 @@
         },
         "botocore": {
             "hashes": [
-                "sha256:0e9ab19787ad7a079c00d3e40b16bc66423e54bc0e8a203b70b543bd8854d5ad",
-                "sha256:5cc68b78a48217550c18b4639420b7c3b48ed9e09e749343143acbfa423ceec5"
+                "sha256:ca3ef7588daa664fe196d3234718db5f6b5dab961507500b4bb921e31133eea1",
+                "sha256:f2fe17ed6b8e163769a715f81cb6ce3d4628d172918de535256bdf34d29b704f"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.29.50"
+            "version": "==1.29.54"
         },
         "certifi": {
             "hashes": [
@@ -294,10 +294,10 @@
         },
         "pulumi": {
             "hashes": [
-                "sha256:2ecc864ad2572a6e0ff90eef35619c825c59628bc794064c62ae9290c59ae955"
+                "sha256:3942eeec704f76ff0cac4d91a07d3b1210074a21e721cd77e02cefe217004be2"
             ],
             "index": "pypi",
-            "version": "==3.51.1"
+            "version": "==3.52.1"
         },
         "pulumi-aws": {
             "hashes": [
@@ -404,11 +404,11 @@
         },
         "setuptools": {
             "hashes": [
-                "sha256:a78d01d1e2c175c474884671dde039962c9d74c7223db7369771fcf6e29ceeab",
-                "sha256:bd6eb2d6722568de6d14b87c44a96fac54b2a45ff5e940e639979a3d1792adb6"
+                "sha256:6f590d76b713d5de4e49fe4fbca24474469f53c83632d5d0fd056f7ff7e8112b",
+                "sha256:ac4008d396bc9cd983ea483cb7139c0240a07bbc74ffb6232fceffedc6cf03a8"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==66.0.0"
+            "version": "==66.1.1"
         },
         "six": {
             "hashes": [
@@ -436,6 +436,7 @@
         },
         "wcwidth": {
             "hashes": [
+                "sha256:795b138f6875577cd91bba52baf9e445cd5118fd32723b460e30a0af30ea230e",
                 "sha256:a5220780a404dbe3353789870978e472cfe477761f06ee55077256e509b156d0"
             ],
             "version": "==0.2.6"
@@ -468,11 +469,11 @@
         },
         "botocore": {
             "hashes": [
-                "sha256:0e9ab19787ad7a079c00d3e40b16bc66423e54bc0e8a203b70b543bd8854d5ad",
-                "sha256:5cc68b78a48217550c18b4639420b7c3b48ed9e09e749343143acbfa423ceec5"
+                "sha256:ca3ef7588daa664fe196d3234718db5f6b5dab961507500b4bb921e31133eea1",
+                "sha256:f2fe17ed6b8e163769a715f81cb6ce3d4628d172918de535256bdf34d29b704f"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.29.50"
+            "version": "==1.29.54"
         },
         "jmespath": {
             "hashes": [
