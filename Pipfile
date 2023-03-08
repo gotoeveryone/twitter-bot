@@ -20,5 +20,5 @@ python_version = "3.9"
 [scripts]
 code_check = "pycodestyle ."
 code_format = "autopep8 --in-place --recursive ."
-deploy = "bash -c 'pipenv lock -r > requirements.txt && chalice deploy --stage prod'"
+deploy = "bash -c 'pipenv requirements > requirements.txt && chalice deploy --stage prod'"
 execute = "python main.py"
