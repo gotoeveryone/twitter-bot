@@ -6,10 +6,10 @@ jobs:
   code_check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
 
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.9
 
@@ -17,7 +17,7 @@ jobs:
         run: pip install pipenv
 
       - name: Cache virtualenvs
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         id: app_cache
         with:
           path: ~/.local/share/virtualenvs
@@ -36,10 +36,10 @@ jobs:
       - code_check
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
 
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.9
 
@@ -47,7 +47,7 @@ jobs:
         run: pip install pipenv
 
       - name: Cache virtualenvs
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         id: app_cache
         with:
           path: ~/.local/share/virtualenvs
@@ -78,7 +78,7 @@ jobs:
       - deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: technote-space/workflow-conclusion-action@v1
+      - uses: technote-space/workflow-conclusion-action@v3
       - name: Notify to Slack
         uses: 8398a7/action-slack@v3
         with:
