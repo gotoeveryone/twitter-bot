@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "fc438876bc0ed2c15f735050bc1cf1f327b1672571f09c2a1a8c97fff7a6cefd"
+            "sha256": "6807527b6cdd81b24cbc3715286a7b58962bebeb25efd6d29c7c2f8ef4c700f5"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -25,11 +25,11 @@
         },
         "attrs": {
             "hashes": [
-                "sha256:2d27e3784d7a565d36ab851fe94887c5eccd6a463168875832a1be79c82828b4",
-                "sha256:626ba8234211db98e869df76230a137c4c40a12d72445c45d5f5b716f076e2fd"
+                "sha256:29e95c7f6778868dbd49170f98f8818f78f3dc5e0e37c0b1f474e3561b240836",
+                "sha256:c9227bfc2f01993c03f68db37d1d15c9690188323c067c641f1a35ca58185f99"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
-            "version": "==21.4.0"
+            "markers": "python_version >= '3.6'",
+            "version": "==22.2.0"
         },
         "blessed": {
             "hashes": [
@@ -57,11 +57,11 @@
         },
         "chalice": {
             "hashes": [
-                "sha256:58ccf0ada3727de1b93fd1d5c6e9e17d92a3e929ff37cb14cfaa6fc9e729c92e",
-                "sha256:f41d0eaac1edb70ce1904b234bfc6ad4af35b7321f79b998bc6a95ff5f8cb4f6"
+                "sha256:57ed833c72b75af0a276fd030daf240e0e31882a5e11a91547160c07f3dd29ab",
+                "sha256:f57bae2460578f6a74c7769ca4f30f6c16ce327910f13fc4fe90fd4fa59b0db4"
             ],
             "index": "pypi",
-            "version": "==1.27.3"
+            "version": "==1.28.0"
         },
         "charset-normalizer": {
             "hashes": [
@@ -253,11 +253,11 @@
         },
         "pip": {
             "hashes": [
-                "sha256:3fd1929db052f056d7a998439176d3333fa1b3f6c1ad881de1885c0717608a4b",
-                "sha256:b61a374b5bc40a6e982426aede40c9b5a08ff20e640f5b56977f4f91fed1e39a"
+                "sha256:236bcb61156d76c4b8a05821b988c7b8c35bf0da28a4b614e8d6ab5212c25c6f",
+                "sha256:cd015ea1bfb0fcef59d8a286c1f8bebcb983f6317719d415dc5351efb7cd7024"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==22.2.2"
+            "version": "==23.0.1"
         },
         "protobuf": {
             "hashes": [
