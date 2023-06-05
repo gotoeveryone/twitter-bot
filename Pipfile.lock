@@ -41,11 +41,11 @@
         },
         "botocore": {
             "hashes": [
-                "sha256:0677848bb8ef94d69c5d2f5c613dbab5b6710a8b7649f3fafca5172c464728b8",
-                "sha256:512d2f48fc1471f169bc210eede662f8da66be3cebc1515dfb5411a18b2aeabf"
+                "sha256:77f7793cb36074eb84d606a23ad6e1d57c20f7a2eeab7d9136d3e63c584e0504",
+                "sha256:ac57003292f18206ee942eafc381ecd9a3420a3844d6b7e1c1b0f4b88b28263b"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.29.142"
+            "version": "==1.29.146"
         },
         "certifi": {
             "hashes": [
@@ -280,10 +280,10 @@
         },
         "pulumi": {
             "hashes": [
-                "sha256:979e574b66a97cd294de15938dc5d6abae75731a5b5a9c37207c30d547ceefef"
+                "sha256:e2088a08258acc5b066e2f46291d596853d9af55e2b4b2ecf9d639b5caf8f779"
             ],
             "index": "pypi",
-            "version": "==3.68.0"
+            "version": "==3.69.0"
         },
         "pulumi-aws": {
             "hashes": [
@@ -406,11 +406,11 @@
         },
         "typing-extensions": {
             "hashes": [
-                "sha256:06006244c70ac8ee83fa8282cb188f697b8db25bc8b4df07be1873c43897060c",
-                "sha256:3a8b36f13dd5fdc5d1b16fe317f5668545de77fa0b8e02006381fd49d731ab98"
+                "sha256:88a4153d8505aabbb4e13aacb7c486c2b4a33ca3b3f807914a9b4c844c471c26",
+                "sha256:d91d5919357fe7f681a9f2b5b4cb2a5f1ef0a1e9f59c4d8ff0d3491e05c0ffd5"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==4.6.2"
+            "version": "==4.6.3"
         },
         "urllib3": {
             "hashes": [
@@ -455,11 +455,11 @@
         },
         "botocore": {
             "hashes": [
-                "sha256:0677848bb8ef94d69c5d2f5c613dbab5b6710a8b7649f3fafca5172c464728b8",
-                "sha256:512d2f48fc1471f169bc210eede662f8da66be3cebc1515dfb5411a18b2aeabf"
+                "sha256:77f7793cb36074eb84d606a23ad6e1d57c20f7a2eeab7d9136d3e63c584e0504",
+                "sha256:ac57003292f18206ee942eafc381ecd9a3420a3844d6b7e1c1b0f4b88b28263b"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.29.142"
+            "version": "==1.29.146"
         },
         "jmespath": {
             "hashes": [
