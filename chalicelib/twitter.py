@@ -24,9 +24,9 @@ class TwitterClient:
         """
         Send message to Twitter
         """
-        url = 'https://api.twitter.com/1.1/statuses/update.json'
-        return self._client.post(url, params={
-            'status': message,
+        url = 'https://api.twitter.com/2/tweets'
+        return self._client.post(url, json={
+            'text': message,
         })
 
     def get_parameter(self, key: str) -> str:
