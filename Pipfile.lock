@@ -41,11 +41,11 @@
         },
         "botocore": {
             "hashes": [
-                "sha256:4c9c58ae286a2ca1f900c9bce285b9efd1f0401648aa54a5026c93ada63ad897",
-                "sha256:62e954b8eb9a404510dd97c4fdfaae25bd0349213a3cd70e937e0634821342f5"
+                "sha256:2aa27c75e62bfcf7900cb85283228fcb7df0fa1bdc2ae76dcee90788dd444934",
+                "sha256:744ce853cadc7ae87ba42ef6828194ddec97d606dd4d08b4dfe3d96d5001eb0c"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.31.1"
+            "version": "==1.31.3"
         },
         "certifi": {
             "hashes": [
@@ -146,11 +146,11 @@
         },
         "click": {
             "hashes": [
-                "sha256:2739815aaa5d2c986a88f1e9230c55e17f0caad3d958a5e13ad0797c166db9e3",
-                "sha256:b97d0c74955da062a7d4ef92fadb583806a585b2ea81958a81bd72726cbb8e37"
+                "sha256:4be4b1af8d665c6d942909916d31a213a106800c47d0eeba73d34da3cbc11367",
+                "sha256:e576aa487d679441d7d30abb87e1b43d24fc53bffb8758443b1a9e1cee504548"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==8.1.4"
+            "version": "==8.1.5"
         },
         "dill": {
             "hashes": [
@@ -447,19 +447,19 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:12f5ea4a98e8e19c981912ac22bc5d87f1f1d8f8269287eace0dd517c9d23e01",
-                "sha256:9923ab006bba749bececc5c8cb0c3dc9bc33c91358774f8ff22096ead373b772"
+                "sha256:34f07b3fc2503240c0f58114cf3afea91295c7996d084991b78a278a56157c48",
+                "sha256:610369a7f984b58973c097ea649ec81976c04565d39a2d6d3edc280d23b0cb87"
             ],
             "index": "pypi",
-            "version": "==1.28.1"
+            "version": "==1.28.3"
         },
         "botocore": {
             "hashes": [
-                "sha256:4c9c58ae286a2ca1f900c9bce285b9efd1f0401648aa54a5026c93ada63ad897",
-                "sha256:62e954b8eb9a404510dd97c4fdfaae25bd0349213a3cd70e937e0634821342f5"
+                "sha256:2aa27c75e62bfcf7900cb85283228fcb7df0fa1bdc2ae76dcee90788dd444934",
+                "sha256:744ce853cadc7ae87ba42ef6828194ddec97d606dd4d08b4dfe3d96d5001eb0c"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.31.1"
+            "version": "==1.31.3"
         },
         "jmespath": {
             "hashes": [
