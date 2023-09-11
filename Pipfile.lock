@@ -280,10 +280,10 @@
         },
         "pulumi": {
             "hashes": [
-                "sha256:c325512c691a1da2af5b0ad2a2ca93c2a99a1363adec010abc0f4104a4cf27b4"
+                "sha256:2f1411eb67511a3fad4d3bc3828cc48433714ef3f015d8871ef4c613dd28c7ac"
             ],
             "index": "pypi",
-            "version": "==3.80.0"
+            "version": "==3.81.0"
         },
         "pulumi-aws": {
             "hashes": [
