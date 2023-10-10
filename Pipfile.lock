@@ -295,11 +295,11 @@
         },
         "pulumi": {
             "hashes": [
-                "sha256:db1923170e91badf7d781426d14132a3bec6be827a75d1c535d8be987dc579e1"
+                "sha256:291e1bbc9ac68f7d05c0a5ec1a6dcfe7571cc358d2b853d6e26e76f634ecc20f"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.7'",
-            "version": "==3.86.0"
+            "version": "==3.87.0"
         },
         "pulumi-aws": {
             "hashes": [
