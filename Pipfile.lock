@@ -41,11 +41,11 @@
         },
         "botocore": {
             "hashes": [
-                "sha256:272b78ac65256b6294cb9cdb0ac484d447ad3a85642e33cb6a3b1b8afee15a4c",
-                "sha256:be792d806afc064694a2d0b9b25779f3ca0c1584b29a35ac32e67f0064ddb8b7"
+                "sha256:6e582c811ea74f25bdb490ac372b2645de4a60286b42ddd8c69f3b6df82b6b12",
+                "sha256:cb9db5db5af865b1fc2e1405b967db5d78dd0f4d84e5dc1974e082733c1034b7"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.31.62"
+            "version": "==1.31.63"
         },
         "certifi": {
             "hashes": [
@@ -303,12 +303,12 @@
         },
         "pulumi-aws": {
             "hashes": [
-                "sha256:d0a50726212ae39945268ff91b66bada83e74ce3bf78bd5b62e9961850f66894",
-                "sha256:de3d2e9882509d1c12fb7c7794bd2187234255472abd576cf438be3a1b91eadb"
+                "sha256:1a664d874ac85d9d112eecdc6d576b0beeef39ecbdbc62c1a63ee130395bc8df",
+                "sha256:edc95195ae9f11ef9dbc3c69352c4c1bf398128db04f696d05c1773e731ff462"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.7'",
-            "version": "==6.4.0"
+            "version": "==6.5.0"
         },
         "python-dateutil": {
             "hashes": [
@@ -487,11 +487,11 @@
         },
         "botocore": {
             "hashes": [
-                "sha256:272b78ac65256b6294cb9cdb0ac484d447ad3a85642e33cb6a3b1b8afee15a4c",
-                "sha256:be792d806afc064694a2d0b9b25779f3ca0c1584b29a35ac32e67f0064ddb8b7"
+                "sha256:6e582c811ea74f25bdb490ac372b2645de4a60286b42ddd8c69f3b6df82b6b12",
+                "sha256:cb9db5db5af865b1fc2e1405b967db5d78dd0f4d84e5dc1974e082733c1034b7"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.31.62"
+            "version": "==1.31.63"
         },
         "jmespath": {
             "hashes": [
@@ -503,11 +503,11 @@
         },
         "pycodestyle": {
             "hashes": [
-                "sha256:259bcc17857d8a8b3b4a2327324b79e5f020a13c16074670f9c8c8f872ea76d0",
-                "sha256:5d1013ba8dc7895b548be5afb05740ca82454fd899971563d2ef625d090326f8"
+                "sha256:41ba0e7afc9752dfb53ced5489e89f8186be00e599e712660695b7a75ff2663f",
+                "sha256:44fe31000b2d866f2e41841b18528a505fbd7fef9017b04eff4e2648a0fadc67"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==2.11.0"
+            "version": "==2.11.1"
         },
         "python-dateutil": {
             "hashes": [
