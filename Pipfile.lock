@@ -303,12 +303,12 @@
         },
         "pulumi-aws": {
             "hashes": [
-                "sha256:1a664d874ac85d9d112eecdc6d576b0beeef39ecbdbc62c1a63ee130395bc8df",
-                "sha256:edc95195ae9f11ef9dbc3c69352c4c1bf398128db04f696d05c1773e731ff462"
+                "sha256:a70419e6cdfd37b1803088985f48a1e9f1cdde740ec676a77c8ecc366fc29d02",
+                "sha256:d739a10f47444f39818dcfee267aab55b3f747efd33247f2f0f1ba6a6f00864f"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.7'",
-            "version": "==6.5.0"
+            "version": "==6.6.0"
         },
         "python-dateutil": {
             "hashes": [
