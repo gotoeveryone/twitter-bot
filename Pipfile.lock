@@ -301,12 +301,12 @@
         },
         "pulumi-aws": {
             "hashes": [
-                "sha256:020a29466a30cf8e80593502002cf03a125e4cb10d27a9889745d208794501aa",
-                "sha256:a6c20857755272dc4cd06ca05d5aeb1378f25a6b154e3b86aa602ea9649a75b4"
+                "sha256:3759515d5aa393cf4bcac99dd3a92104ed3bee7461b37e9e37acf4521180f61b",
+                "sha256:eab7f2ed6961ab8609752fdbe39674f54f847f69dd5788e85aaef55af267fc66"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.7'",
-            "version": "==6.18.1"
+            "version": "==6.18.2"
         },
         "python-dateutil": {
             "hashes": [
