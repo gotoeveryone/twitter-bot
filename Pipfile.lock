@@ -293,20 +293,20 @@
         },
         "pulumi": {
             "hashes": [
-                "sha256:f091cf3ce42eea67e732f65a9c5a7b5290ae23d67b44478c03795c512dc46605"
+                "sha256:a56c9b5e5261d99c06f2709f68b3eba0e7907aee492c53447bc7177a241090ad"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.7'",
-            "version": "==3.103.1"
+            "version": "==3.104.2"
         },
         "pulumi-aws": {
             "hashes": [
-                "sha256:3759515d5aa393cf4bcac99dd3a92104ed3bee7461b37e9e37acf4521180f61b",
-                "sha256:eab7f2ed6961ab8609752fdbe39674f54f847f69dd5788e85aaef55af267fc66"
+                "sha256:30564d1b94a8f2824b46ea9d49b73e169aceadee0820a5430c9310c5e0dc7a2d",
+                "sha256:47fe03da4e78e0d95ac8ce39cbc5419a37897f06d9e46d9481034d445ff2f52f"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.7'",
-            "version": "==6.18.2"
+            "version": "==6.20.1"
         },
         "python-dateutil": {
             "hashes": [
