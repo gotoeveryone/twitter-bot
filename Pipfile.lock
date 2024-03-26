@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "cbd34088266c5f82f3b46510d7d16fd06d9f311b90ad9ac6475f8374d6fd0957"
+            "sha256": "0d61d0469ec208e974bb06d3260ec9436a513184118093d294c31db3b68b2edd"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -411,12 +411,12 @@
         },
         "requests-oauthlib": {
             "hashes": [
-                "sha256:7a3130d94a17520169e38db6c8d75f2c974643788465ecc2e4b36d288bf13033",
-                "sha256:acee623221e4a39abcbb919312c8ff04bd44e7e417087fb4bd5e2a2f53d5e79a"
+                "sha256:7dd8a5c40426b779b0868c404bdef9768deccf22749cde15852df527e6269b36",
+                "sha256:b3dffaebd884d8cd778494369603a9e7b58d29111bf6b41bdc2dcd87203af4e9"
             ],
             "index": "pypi",
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
-            "version": "==1.4.0"
+            "markers": "python_version >= '3.4'",
+            "version": "==2.0.0"
         },
         "semver": {
             "hashes": [
